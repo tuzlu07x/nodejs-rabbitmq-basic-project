@@ -8,7 +8,7 @@
 ## rabbitmqConnection.js
 
 - There is a connection rabbitMQ.
-```
+```bash
 
 const amqp = require('amqplib')
 
@@ -23,7 +23,7 @@ module.exports = async () =>{
 
 - It sends a queue what you wanna send inside queue
 
-```
+```bash
 const amqp = require('amqplib');
 const rabbitMqConnection = require('./rabbitmqConnection');
 const queueName = 'emailQueueName';
@@ -46,7 +46,7 @@ module.exports = async (email)=> {
 
 - Finally that consume to queue so It get whatever inside queue and we should delete the queue with act() function
 
-``` 
+```bash
 const amqp = require('amqplib');
 const rabbitMqConnection = require('./rabbitmqConnection');
 const queueName = 'emailQueueName';
