@@ -1,4 +1,4 @@
-# How to work that sh*t RabbitMQ
+# How to works that sh*t RabbitMQ
 
 
 ## What is RabbitMQ
