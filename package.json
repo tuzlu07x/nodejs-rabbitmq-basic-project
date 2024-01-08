@@ -1,0 +1,19 @@
+{
+  "name": "rabbitmq",
+  "version": "1.0.0",
+  "description": "RabbitMQ basic project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rabbitMQ",
+    "nodejs"
+  ],
+  "author": "Fatih Tuzlu",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "express": "^4.18.2"
+  }
+}
